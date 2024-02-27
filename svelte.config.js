@@ -10,7 +10,8 @@ export default {
 			assets: 'build',
 			fallback: undefined,
 			precompress: false,
-			strict: true
+			strict: true,
+			fallback: '200.html'
 		})
 	},
 	preprocess: vitePreprocess(),
