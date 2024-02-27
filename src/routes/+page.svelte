@@ -5,6 +5,12 @@
         counter += 1;
     }
 
+    let userInput = "";
+
+  const handleSubmit = () => {
+    window.location.href = `/blog/${encodeURIComponent(userInput)}`;
+  };
+
 </script>
 
 <h1>Welcome to my first Svelte-Page.</h1>
@@ -17,5 +23,8 @@
 <a href="/blog/1">Go to blog 1</a><br>
 <a href="/blog/2">Go to blog 2</a><br>
 <a href="/blog/3">Go to blog 3</a><br>
+<br>
+<input bind:value={userInput} placeholder="Enter text" />
+<button on:click={handleSubmit}>Submit</button>
 <br><br>
 Go to <a href="https://fabian-ober.de">Fabian Ober</a> to see more.
