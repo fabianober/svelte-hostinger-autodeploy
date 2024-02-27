@@ -11,4 +11,6 @@
 <button on:click={increment}>Clicked {counter} times</button>
 
 <br><br>
+<a href="/about">Go to about</a>
+<br><br>
 Go to <a href="https://fabian-ober.de">Fabian Ober</a> to see more.
