@@ -8,7 +8,6 @@ export default {
 			// these options are set automatically — see below
 			pages: 'build',
 			assets: 'build',
-			fallback: undefined,
 			precompress: false,
 			strict: true,
 			fallback: 'index.html'
