@@ -14,7 +14,13 @@
  limitations under the License.
 -->
 
-<h2>Hello</h2>
+<script>
+    export let data;
+</script>
+
+<h1>Blog: {data.slug}</h1>
+
+<p>Hello, nice you're here!</p>
 
 <br><br>
 <a href="/">Back</a>

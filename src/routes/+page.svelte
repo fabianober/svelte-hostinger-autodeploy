@@ -13,4 +13,8 @@
 <br><br>
 <a href="/about">Go to about</a>
 <br><br>
+<a href="/blog/1">Go to blog 1</a><br>
+<a href="/blog/2">Go to blog 2</a><br>
+<a href="/blog/3">Go to blog 3</a><br>
+<br><br>
 Go to <a href="https://fabian-ober.de">Fabian Ober</a> to see more.
