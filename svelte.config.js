@@ -11,7 +11,7 @@ export default {
 			fallback: undefined,
 			precompress: false,
 			strict: true,
-			fallback: '200.html'
+			fallback: 'index.html'
 		})
 	},
 	preprocess: vitePreprocess(),
