@@ -5,21 +5,22 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link rel="modulepreload" href="./_app/immutable/entry/start.DQbvGSoH.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.DSANm3sc.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.BvLojk_z.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.BUl7BiuA.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.CaiXS_KW.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.DH2NqQg2.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.CiawxZmS.js">
+		<link href="./_app/immutable/assets/0.BxDMNqhs.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.CoUhXH6s.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.vXgY65mx.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.CtbWrGNo.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.s1Kn9y3z.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.D02CXcpt.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.MR6vAOp2.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.CK7pdTnU.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">  <h1 data-svelte-h="svelte-10hr1bw">Welcome to my first Svelte-Page.</h1> <button>Clicked 0 times</button> <br><br> <a href="/about" data-svelte-h="svelte-14va9uy">Go to about</a> <br><br> <a href="/blog/1" data-svelte-h="svelte-uj7nax">Go to blog 1</a><br> <a href="/blog/2" data-svelte-h="svelte-1m0dryl">Go to blog 2</a><br> <a href="/blog/3" data-svelte-h="svelte-1xv4ca5">Go to blog 3</a><br> <br><br>
+		<div style="display: contents">    <h1 data-svelte-h="svelte-10hr1bw">Welcome to my first Svelte-Page.</h1> <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">Clicked 0 times</button> <br><br> <a href="/about" data-svelte-h="svelte-14va9uy">Go to about</a> <br><br> <a href="/blog/1" data-svelte-h="svelte-uj7nax">Go to blog 1</a><br> <a href="/blog/2" data-svelte-h="svelte-1m0dryl">Go to blog 2</a><br> <a href="/blog/3" data-svelte-h="svelte-1xv4ca5">Go to blog 3</a><br> <br><br>
 Go to <a href="https://fabian-ober.de" data-svelte-h="svelte-1pi6cov">Fabian Ober</a> to see more. 
 			
 			<script>
 				{
-					__sveltekit_psr8tx = {
+					__sveltekit_2mv1ju = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
@@ -28,8 +29,8 @@ Go to <a href="https://fabian-ober.de" data-svelte-h="svelte-1pi6cov">Fabian Obe
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.DQbvGSoH.js"),
-						import("./_app/immutable/entry/app.BUl7BiuA.js")
+						import("./_app/immutable/entry/start.CoUhXH6s.js"),
+						import("./_app/immutable/entry/app.s1Kn9y3z.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
