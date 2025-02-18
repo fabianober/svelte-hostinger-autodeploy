@@ -16,6 +16,22 @@
 
 <script>
     import "../app.css";
-  </script>
-  
-  <slot />
+    import { DarkMode } from 'flowbite-svelte';
+    import { onMount } from 'svelte';
+
+    // Initialize theme from localStorage or system preference
+    onMount(() => {
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+    });
+</script>
+
+<div class="min-h-screen transition-colors duration-300 dark:bg-gray-900">
+    <div class="fixed top-4 right-4 z-50">
+        <DarkMode />
+    </div>
+    <slot />
+</div>
